@@ -277,7 +277,7 @@ const WhatToCookApp = () => {
               Just click the button below to get a random suggestion.
             </p>
             <button className="primary-button" onClick={getRandomMeal}>
-              Suggest a meal for today
+              {selectedMeal ? "Not intrested? Suggest another meal" : "Suggest a meal for today"}
             </button>
           </div>
 
